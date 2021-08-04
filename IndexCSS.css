@@ -15,10 +15,13 @@
     border: 5px solid black;
     border-radius: 25px;
     background-color: grey;
+    text-align: center;
+    font-size: xxx-large;
 }
 #OutPut{
     grid-column: 1 / span 3;
     grid-row: 1;
+    text-align: right;
 }
 
 #equal{
