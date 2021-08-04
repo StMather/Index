@@ -1,0 +1,22 @@
+.gridMaster{
+    background-color:red;
+    display: grid;
+    grid-template-columns: 150px, 150px, 150px;
+    grid-template-rows: 150px, 150px, 150px, 150px, 150px, 150px;
+
+    border-radius: 25px;
+}
+.gridMaster > div{
+    border: 5px solid black;
+    border-radius: 25px;
+    background-color: grey;
+}
+#OutPut{
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+
+#equal{
+    grid-column: 2 / span 2;
+    grid-row: 6;
+}
