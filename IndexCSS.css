@@ -15,6 +15,7 @@ button{
 }
 button:hover{
     background-color: lightgreen;
+    cursor: pointer;
 }
 
 .gridMaster{
