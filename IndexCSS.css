@@ -8,19 +8,19 @@ button{
     
     height: 150px;
     width: 100%;
-    background-color: #55618a;
+    background-color: #219ebc;
     font-size: xxx-large;
     text-align: center;
     border-radius: 25px;
 }
 /*button when hoved over*/
 button:hover{
-    background-color: #558a80;
+    background-color: #fb8500;
     cursor: pointer;
 }
 
 .gridMaster{
-    background-color: lightskyblue;
+    background-color: #8ecae6;
     /*centers grid*/
     position: absolute;
     top: 50%;
@@ -39,8 +39,8 @@ button:hover{
 #OutPut{
     width: 100%;
     font-size:xx-large;
-    color: whitesmoke;
-    background-color: #252525;
+    color: #ffb703;
+    background-color: #023047;
     border-radius: 10px;
 }
 
