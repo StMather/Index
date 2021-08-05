@@ -3,25 +3,41 @@ body{
     /*font-family: 'Courier New', Courier, monospace;*/
 }
 
+/*button style*/
+button{
+    
+    height: 150px;
+    width: 100%;
+    background-color: red;
+    font-size: xxx-large;
+    text-align: center;
+    border-radius: 25px;
+}
+button:hover{
+    background-color: lightgreen;
+}
+
 .gridMaster{
     background-color: lightskyblue;
-    display: grid;
-    /*Creates 3x5 grid*/
-    grid-template-columns: 150px 150px 150px;
-    grid-template-rows: 75px 150px 150px 150px 150px 150px;
-    border-radius: 25px;
     /*centers grid*/
     position: absolute;
     top: 50%;
     Left: 50%;
     transform: translate(-50%, -50%);
-}
-.gridMaster > div{
     border: 5px solid black;
     border-radius: 25px;
-    background-color: grey;
-    text-align: center;
-    font-size: xxx-large;
+}
+.gridMaster > div{
+    /*Not needed handeled by button*/
+    
+    
+}
+.keys{
+    display: grid;
+    /*Creates 3x5 grid*/
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px 150px 150px;
+    
 }
 #OutPut{
     grid-column: 1 / span 3;
@@ -30,6 +46,7 @@ body{
 }
 
 #equal{
+    width: 280px;
     grid-column: 2 / span 2;
-    grid-row: 6;
+    grid-row: 5;
 }
