@@ -1,5 +1,10 @@
+body{
+    background-color:lightgray;
+    /*font-family: 'Courier New', Courier, monospace;*/
+}
+
 .gridMaster{
-    background-color:red;
+    background-color: lightskyblue;
     display: grid;
     /*Creates 3x5 grid*/
     grid-template-columns: 150px 150px 150px;
