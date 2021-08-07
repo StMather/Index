@@ -6,12 +6,13 @@ body{
 /*button style*/
 button{
     
-    height: 150px;
-    width: 100%;
+    height: 140px;
+    width: 95%;
     background-color: #219ebc;
     font-size: xxx-large;
     text-align: center;
     border-radius: 25px;
+    box-shadow: 10px 10px #023047;
 }
 /*button when hoved over*/
 button:hover{
