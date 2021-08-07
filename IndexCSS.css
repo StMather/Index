@@ -38,11 +38,14 @@ button:hover{
     
 }
 #OutPut{
-    width: 100%;
+    width: 98%;
+    left: 50%;
+    transform: translate(5px,0%);
     font-size:xx-large;
     color: #ffb703;
     background-color: #023047;
-    border-radius: 10px;
+    border-radius: 15px;
+    box-shadow: -4px -4px  black;
 }
 
 #equal{
