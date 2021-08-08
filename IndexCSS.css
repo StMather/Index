@@ -29,6 +29,7 @@ button:hover{
     transform: translate(-50%, -50%);
     border: 5px solid black;
     border-radius: 25px;
+    box-shadow: 10px 10px #023047;
 }
 .keys{
     display: grid;
